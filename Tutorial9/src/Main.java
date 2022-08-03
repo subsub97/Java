@@ -1,7 +1,8 @@
 
 public class Main {
 	
-	// 반환형 , 함수명 , 매개변수로 구
+	// 사용자 정의 함수는 반환형 , 함수명 , 매개변수로 구성
+	// 최대 공약수를 구하는 코드
 	public static int function(int a, int b , int c) {
 		int min;
 		
@@ -27,7 +28,7 @@ public class Main {
 				min = a;
 			}
 		}
-		System.out.println(min);
+		
 		for(int i = min; i > 0; i--)
 		{
 			if(a % i == 0 && b % i ==0 && c % i ==0)
